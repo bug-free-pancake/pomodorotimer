@@ -104,7 +104,7 @@ function startTimer() {
         currentInterval = 'long-break';
         startTimer();
       } else {
-        timeLeft = 25 * 60;
+        timeLeft = 50 * 60;
         currentInterval = 'pomodoro';
       }
     }
